@@ -16,7 +16,9 @@ Install
 -------
 ```bash
 $ git clone https://github.com/hathemahmed/morse
-$ cd morse & chmod +x morse.py
+$ cd morse 
+$ python3.6 -m pip install -r requirements.txt
+$ chmod +x morse.py
 $ ./morse.py --help
 ```
 
